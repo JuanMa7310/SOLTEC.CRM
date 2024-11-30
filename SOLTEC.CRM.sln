@@ -3,14 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F5BEA5E3-AA98-4219-A216-65158016A88B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README-ES.md = README-ES.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{E35DA164-D06B-4740-B44B-975FB3AA093E}"
+	ProjectSection(SolutionItems) = preProject
+		repository-open-graph-template.png = repository-open-graph-template.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5FE31396-38F4-4CAF-9097-4C277CFC1B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0247DE7D-A320-4E4A-B721-2576802C7CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLTEC.CRM", "SOLTEC.CRM\SOLTEC.CRM.csproj", "{48407333-E5B2-45B0-A506-BC16CE7073C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLTEC.CRM.Tests", "SOLTEC.CRM.Tests\SOLTEC.CRM.Tests.csproj", "{26FCCA27-1DCA-44F1-88EE-A672357AD5E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48407333-E5B2-45B0-A506-BC16CE7073C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48407333-E5B2-45B0-A506-BC16CE7073C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48407333-E5B2-45B0-A506-BC16CE7073C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48407333-E5B2-45B0-A506-BC16CE7073C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FCCA27-1DCA-44F1-88EE-A672357AD5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FCCA27-1DCA-44F1-88EE-A672357AD5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FCCA27-1DCA-44F1-88EE-A672357AD5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FCCA27-1DCA-44F1-88EE-A672357AD5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E35DA164-D06B-4740-B44B-975FB3AA093E} = {F5BEA5E3-AA98-4219-A216-65158016A88B}
+		{48407333-E5B2-45B0-A506-BC16CE7073C3} = {5FE31396-38F4-4CAF-9097-4C277CFC1B8A}
+		{26FCCA27-1DCA-44F1-88EE-A672357AD5E3} = {0247DE7D-A320-4E4A-B721-2576802C7CF4}
 	EndGlobalSection
 EndGlobal
